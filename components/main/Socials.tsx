@@ -25,7 +25,7 @@ const Socials = () => {
        
       >
         <Image
-          src="/BOMEOB thuglife.png"
+          src="/DPENG [png].png"
           alt="thuglife"
           width={300}
           height={300}

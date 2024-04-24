@@ -15,6 +15,7 @@ const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
 export const metadata: Metadata = {
   title: "Detective Penguin Meme Coin",
   description: "DEPT",
+  
 };
 
 export default function RootLayout({

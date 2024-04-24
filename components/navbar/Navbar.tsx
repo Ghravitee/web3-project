@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center flex-shrink-0 gap-4">
              <Link href="/">
                <Image
-               src="/BOMEOB character profile-1.png"
+               src="/DPENG [png].png"
                alt="logo"
                width={40}
                height={40}

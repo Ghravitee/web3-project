@@ -15,18 +15,18 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex lg:flex-row flex-col md:flex-row items-center justify-center md:px-20 px-8 my-20 w-full z-[20]"
+      className="lg:grid-cols-2 grid md:flex-row items-center justify-center md:px-20 px-8 my-20 w-full z-[20]"
     >
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/BOMEOB-main-character.png"
+          src="/DPENG [png].png"
           alt="icons"
-          height={250}
-          width={250}
-          className="md:w-[450px] md:h-[450px] mt-16 mb-10 md:mb-0"
+          height={300}
+          width={300}
+          className="md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] mt-16 mb-10 md:mb-0"
         />
       </motion.div>
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start mb-10">
@@ -52,7 +52,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-gray-300 text-2xl my-5 max-w-[600px] font1 text-center"
+          className="text-gray-300 text-2xl my-5 md:max-w-[600px] font1 text-center"
         >
           Introducing Detective Penguin Meme Coin: Where the hunt for profits is
           as wacky as a penguin in a tuxedo!
