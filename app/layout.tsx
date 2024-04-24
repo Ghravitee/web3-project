@@ -10,7 +10,7 @@ const specialElite = Special_Elite({ subsets: ["latin"], weight: "400", variable
 const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Detective Penguin Meme Coin",
+  title: "DEPT | On Base",
   description: "DEPT",
   
 };
