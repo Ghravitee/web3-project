@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Permanent_Marker } from "next/font/google";
+import { Inter, Permanent_Marker, Rowdies } from "next/font/google";
 
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
@@ -10,6 +10,7 @@ const permanentMarker = Permanent_Marker({
   weight: "400"
 });
 
+const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Book of Memes",
@@ -23,8 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${permanentMarker.className} ${inter.className}  bg-gradient-to-br from-indigo-900 via-indigo-900 to-teal-500 overflow-y-scroll overflow-x-hidden`}>
-        <StarsCanvas />
+      <body className={`${permanentMarker.className} ${rowdies.className} bg-gradient-to-br from-indigo-900 via-indigo-900 to-teal-500 overflow-y-scroll overflow-x-hidden`}>
+        {/* ss */}
       {children}
       </body>
     </html>

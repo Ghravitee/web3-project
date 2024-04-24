@@ -1,7 +1,7 @@
 "use client";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const words = `Built On The Solid Foundation Of Base, Book Of Meme Enjoys The Benefits Of A Secure, Scalable, And User-Friendly Blockchain. This Paw-Some Memecoin Is Designed To Be Accessible To Everyone, From Seasoned Crypto Traders To Newcomers Who Are Just Starting Their Journey In The World Of Digital Assets. 
+const words = `Who is Detective Penguin you ask? Well, he's not your average birdbrain. With a beak for clues and a wing for adventure, he's the feathered Sherlock Holmes of the crypto world. With each trade, you're not just buying into a coin, you're joining a gang of crypto detectives who aren't afraid to waddle into the wildest financial escapades. 
 `;
 
 

@@ -1,17 +1,18 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { zoomIn } from "@/utils/motion";
+import { zoomIn, fadeIn } from "@/utils/motion";
 
 
 const Tokenomics = () => {
  
   return (
     <div id="tokenomics" className="lg:px-20 px-6">
-      <h2 className="text-center text-3xl lg:text-5xl text-white font-extrabold mt-10 mb-20 ">
+      <motion.h2
+      
+      className="text-center text-3xl lg:text-5xl text-white font-extrabold mt-10 mb-20 ">
         TOKENOMICS
-      </h2>
-      {/* <InfiniteMovingCardsDemo /> */}
+      </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-3 gap-6">
        
           <motion.div
@@ -22,7 +23,7 @@ const Tokenomics = () => {
            className="p-3 md:col-start-1 md:col-end-3 border-[2px] border-[#DBEDFF] rounded-tr-3xl rounded-bl-3xl box-shadow"
           >
             <h3 className="text-4xl lg:text-5xl text-white font-extrabold text-center mb-4">SYMBOL</h3>
-            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">BOMEOB</p>
+            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">DEPT</p>
           </motion.div>
 
           <motion.div

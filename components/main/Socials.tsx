@@ -35,14 +35,14 @@ const Socials = () => {
       </motion.div>
 
       <div className="flex flex-col justify-center">
-        <h3 className="text-2xl text-white mb-10">BOMEOB, The Book of Meme On Base</h3>
-        <p className="text-lg text-white font1 mb-10 text-center md:text-left">bookofmemesonbase@proton.me</p>
+        <h3 className="text-2xl text-white mb-10 text-center md:text-left">DEPT, The ultimate meme coin On Base</h3>
+        <p className="text-lg text-white font1 mb-10 text-center md:text-left">detectivepenguine@gmail.com</p>
         <div className="flex md:justify-start justify-center items-center gap-4">
         
-          <Link href="https://t.me/BOMEOB" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
+          <Link href="https://t.me/lapd_peng" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
           <BiLogoTelegram color="#769AFF" size={60}/>
           </Link>
-          <Link href="https://twitter.com/BOMEOB" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
+          <Link href="https://twitter.com" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
           <RiTwitterXFill size={60} />
           </Link>
         </div>

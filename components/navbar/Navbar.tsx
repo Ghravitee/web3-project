@@ -12,7 +12,7 @@ const Navbar = () => {
         setActive(!active ? "active" : null);
     }
   return (
-    <nav className="bg-[#372699] w-full py-4 border-b-transparent fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-3xl z-50 px-10">
+    <nav className="bg-[#372699] w-full py-4 border-b-transparent fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-pblur-3xl z-50 px-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-around h-6">
           <div className="flex items-center">
@@ -26,7 +26,7 @@ const Navbar = () => {
                className="md:w-[45px] md:h-[45px]"
                />
              </Link>
-             <p className="text-white text-lg">BOMEOB</p>
+             <p className="text-white text-lg">DEPT</p>
             </div>
           </div>
           <div className="hidden md:block">
