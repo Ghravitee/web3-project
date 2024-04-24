@@ -2,19 +2,26 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { zoomIn, fadeIn } from "@/utils/motion";
+import Image from "next/image";
 
 
 const Tokenomics = () => {
  
   return (
-    <div id="tokenomics" className="lg:px-20 px-6">
+    <div id="tokenomics" className="lg:px-20 px-6 relative">
       <motion.h2
       
       className="text-center text-3xl lg:text-5xl text-white font-extrabold mt-10 mb-20 ">
         TOKENOMICS
       </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-3 gap-6">
-       
+      <Image
+            src="/DPENG.png"
+            alt="character profile"
+            width={300}
+            height={300}
+            className="md:w-[300px] md:h-[300px] absolute top-10 right-44 hidden lg:block"
+          />
           <motion.div
            variants={zoomIn(0.4, 1)}
            initial="hidden"

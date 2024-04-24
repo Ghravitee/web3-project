@@ -48,14 +48,15 @@ const About = () => {
           you are joining a gang of crypto detectives who are not afraid to
           waddle into the wildest financial escapades.
         </motion.p>
-        <motion.h1
+        <motion.div
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
         variants={fadeIn("left", "tween", 1, 2)}
-        className="hidden text-center md:text-2xl lg:text-6xl text-white font-extrabold my-10 lg:grid grid-cols-1 lg:self-end">
-          <span className="mb-4">DETECTIVE</span> PENGUIN
-        </motion.h1>
+        className="hidden lg:grid grid-cols-1 lg:self-end">
+          
+          <h1 className="text-center md:text-2xl lg:text-6xl text-white font-extrabold my-10"><span className="mb-4">DETECTIVE</span> PENGUIN</h1>
+        </motion.div>
       </div>
     </div>
   );

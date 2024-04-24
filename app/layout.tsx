@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Permanent_Marker, Rowdies } from "next/font/google";
+import { Inter, Rowdies, Special_Elite } from "next/font/google";
 
 import "./globals.css";
-import StarsCanvas from "@/components/main/StarBackground";
+// import StarsCanvas from "@/components/main/StarBackground";
 
-const inter = Inter({ subsets: ["latin"] });
-const permanentMarker = Permanent_Marker({
-  subsets: ["latin"],
-  weight: "400"
-});
+const specialElite = Special_Elite({ subsets: ["latin"], weight: "400", variable: "--font-specialelite" });
+
 
 const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
 
@@ -25,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${permanentMarker.className} ${rowdies.className} bg-gradient-to-br from-indigo-900 via-indigo-900 to-teal-500 overflow-y-scroll overflow-x-hidden`}>
-        {/* ss */}
+      <body className={`${rowdies.className} ${specialElite.variable} bg-gradient-to-br from-indigo-900 via-indigo-900 to-teal-500 overflow-y-scroll overflow-x-hidden`}>
+       
       {children}
       </body>
     </html>

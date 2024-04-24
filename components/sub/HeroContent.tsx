@@ -22,10 +22,10 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/DPENG [png].png"
+          src="/full body image.png"
           alt="icons"
-          height={300}
-          width={300}
+          height={350}
+          width={350}
           className="md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] mt-16 mb-10 md:mb-0"
         />
       </motion.div>
@@ -37,7 +37,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 lg:text-4xl text-4xl text-center font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 lg:text-4xl text-4xl text-center font1 font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             THE
@@ -52,7 +52,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-gray-300 text-2xl my-5 md:max-w-[600px] font1 text-center"
+          className="text-gray-300 text-2xl my-5 md:max-w-[600px] text-center font1"
         >
           Introducing Detective Penguin Meme Coin: Where the hunt for profits is
           as wacky as a penguin in a tuxedo!
@@ -61,14 +61,14 @@ const HeroContent = () => {
           <motion.a
           href=""
             variants={slideInFromLeft(1)}
-            className="py-3 px-4 md:px-10 button-primary text-center text-white cursor-pointer rounded-lg flex-1"
+            className="py-3 px-4 md:px-10 button-primary text-center font-rowdies text-white cursor-pointer rounded-lg flex-1"
           >
             TRADE NOW
           </motion.a>
           <motion.a
             href="https://t.me/lapd_peng"
             variants={slideInFromLeft(1)}
-            className="py-3 px-4 md:px-10 button-primary text-center text-white cursor-pointer rounded-lg flex-1 w-full"
+            className="py-3 px-4 md:px-10 button-primary text-center font-rowdies text-white cursor-pointer rounded-lg flex-1 w-full"
           >
             TELEGRAM
           </motion.a>
