@@ -18,9 +18,9 @@ const Tokenomics = () => {
       <Image
             src="/DPENG.png"
             alt="character profile"
-            width={300}
-            height={300}
-            className="md:w-[300px] md:h-[300px] absolute top-10 right-44 hidden lg:block"
+            width={100}
+            height={100}
+            className="lg:w-[200px] lg:h-[200px] md:w-[160px] md:h-[160px] sm:w-[150px] sm:h-[150px] absolute right-4 top-10 sm:right-24 md:right-36 lg:top-10 lg:right-52 lg:block"
           />
           <motion.div
            variants={zoomIn(0.4, 1)}

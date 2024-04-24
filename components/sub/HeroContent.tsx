@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="lg:grid-cols-2 grid md:flex-row items-center justify-center md:px-20 px-8 my-20 w-full z-[20]"
+      className="lg:grid-cols-2 grid md:flex-row items-center justify-center md:px-20 px-8 lg:my-20 my-10 w-full z-[20]"
     >
       <motion.div
         variants={slideInFromRight(0.8)}
