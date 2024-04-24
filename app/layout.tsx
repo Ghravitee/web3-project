@@ -13,8 +13,8 @@ const permanentMarker = Permanent_Marker({
 const rowdies = Rowdies({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Book of Memes",
-  description: "A book of memes",
+  title: "Detective Penguin Meme Coin",
+  description: "DEPT",
 };
 
 export default function RootLayout({

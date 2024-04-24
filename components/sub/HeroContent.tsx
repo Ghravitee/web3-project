@@ -31,7 +31,7 @@ const HeroContent = () => {
       </motion.div>
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start mb-10">
         <motion.div variants={slideInFromTop} className="opacity-[0.9]">
-          <h1 className="text-white text-7xl lg:text-7xl text-center leading-[1.2]">
+          <h1 className="text-white text-6xl lg:text-7xl text-center leading-[1.2]">
             Detective Penguin
           </h1>
         </motion.div>
