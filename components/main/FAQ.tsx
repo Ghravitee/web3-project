@@ -79,7 +79,7 @@ const FAQ = () => {
           <p className="font1 text-[#DBEDFF]">
             Yes, DEPT Operates On A 1% Tax Round Trip, That Will Be Used For
             Project Development As Dev Is Super Poor. This Allows For Seamless
-            And Cost-Effective Trading Of BOMEOB Tokens
+            And Cost-Effective Trading Of DEPT Tokens
           </p>
         </motion.div>
       </div>
