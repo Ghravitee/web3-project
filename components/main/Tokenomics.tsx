@@ -41,7 +41,7 @@ const Tokenomics = () => {
            className="p-3  md:col-start-3 md:col-end-5 lg:row-start-2 lg:row-end-3 md:row-start-1 md:row-end-2 border-[2px] border-[#DBEDFF] rounded-tl-3xl rounded-br-3xl box-shadow"
           >
             <h3 className="text-4xl lg:text-5xl text-white font-extrabold text-center mb-4">TAX</h3>
-            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">1/1</p>
+            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">Detective Penguine says &quot;No&#33;&quot;</p>
           </motion.div>
 
           <motion.div

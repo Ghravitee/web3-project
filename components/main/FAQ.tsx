@@ -20,7 +20,7 @@ const FAQ = () => {
         >
           <h3 className="text-3xl text-white mb-4">What is DEPT?</h3>
           <p className="font1 text-[#DBEDFF]">
-            Detective Penguin is a fun and innovative meme coin built on the
+            Detective Penguine is a fun and innovative meme coin built on the
             Base blockchain. Our mission is to create a vibrant community of
             penguin lovers while offering exciting opportunities for holders
             through our unique tokenomics.
@@ -56,9 +56,7 @@ const FAQ = () => {
           viewport={{ once: true }}
           className="border-[3px] border-[#DBEDFF] p-6 lg:third-box rounded-2xl"
         >
-          <h3 className="text-3xl text-white mb-4">
-            Where can I trade DEPT?
-          </h3>
+          <h3 className="text-3xl text-white mb-4">Where can I trade DEPT?</h3>
           <p className="font1 text-[#DBEDFF]">
             DEPT Can Be Traded On Decentralized Exchanges (DEXs) That Support
             The Base Blockchain. Some Popular DEXs Include Uniswap, SushiSwap,
@@ -67,19 +65,17 @@ const FAQ = () => {
           </p>
         </motion.div>
         <motion.div
-          //  initial="hidden"
-          //  whileInView="show"
-          //  variants={fadeIn("left", "tween", 2, 2)}
-          //  viewport={{ once: true}}
           className="border-[3px] border-[#DBEDFF] p-6 lg:fourth-box rounded-2xl"
         >
           <h3 className="text-3xl text-white mb-4">
             Is there a Tax on DEPT transactions?
           </h3>
           <p className="font1 text-[#DBEDFF]">
-            Yes, DEPT Operates On A 1% Tax Round Trip, That Will Be Used For
-            Project Development As Dev Is Super Poor. This Allows For Seamless
-            And Cost-Effective Trading Of DEPT Tokens
+            No, with our 0% tax policy, you can buy, sell, and trade Detective
+            Penguin (DEPT) without worrying about hidden charges or deductions.
+            Whether you are a seasoned investor or new to the crypto world,
+            you will appreciate the straightforwardness and fairness of our
+            approach.
           </p>
         </motion.div>
       </div>

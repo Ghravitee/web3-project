@@ -32,7 +32,7 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start mb-10">
         <motion.div variants={slideInFromTop} className="opacity-[0.9]">
           <h1 className="text-white text-6xl lg:text-7xl text-center leading-[1.2]">
-            Detective Penguin
+            Detective Penguine
           </h1>
         </motion.div>
         <motion.div
@@ -54,7 +54,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-gray-300 text-2xl my-5 md:max-w-[600px] text-center font1"
         >
-          Introducing Detective Penguin Meme Coin: Where the hunt for profits is
+          Introducing Detective Penguine Meme Coin: Where the hunt for profits is
           as wacky as a penguin in a tuxedo!
         </motion.p>
         <div className="flex flex-col sm:flex-row gap-4">

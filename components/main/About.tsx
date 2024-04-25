@@ -42,7 +42,7 @@ const About = () => {
         whileInView="show"
         viewport={{ once: true}}
         className="text-white text-lg mt-10 self-center text-center font1">
-          Detective Penguin is not your average birdbrain. With a beak for clues
+          Detective Penguine is not your average birdbrain. With a beak for clues
           and a wing for adventure, he is the feathered Sherlock Holmes of the
           crypto world. With each trade, you are not just buying into a coin,
           you are joining a gang of crypto detectives who are not afraid to
@@ -55,7 +55,7 @@ const About = () => {
         variants={fadeIn("left", "tween", 1, 2)}
         className="hidden lg:grid grid-cols-1 lg:self-end">
           
-          <h1 className="text-center md:text-2xl lg:text-6xl text-white font-extrabold my-10"><span className="mb-4">DETECTIVE</span> PENGUIN</h1>
+          <h1 className="text-center md:text-2xl lg:text-6xl text-white font-extrabold my-10"><span className="mb-4">DETECTIVE</span> PENGUINE</h1>
         </motion.div>
       </div>
     </div>
