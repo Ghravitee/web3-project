@@ -42,7 +42,7 @@ const Socials = () => {
           <Link href="https://t.me/lapd_peng" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
           <BiLogoTelegram color="#769AFF" size={60}/>
           </Link>
-          <Link href="https://twitter.com" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
+          <Link href="https://x.com/dect_peng" className="flex justify-center items-center p-6 rounded-full bg-white border-[4px] border-gray-400">
           <RiTwitterXFill size={60} />
           </Link>
         </div>

@@ -59,7 +59,7 @@ const HeroContent = () => {
         </motion.p>
         <div className="flex flex-col sm:flex-row gap-4">
           <motion.a
-          href=""
+          href="#"
             variants={slideInFromLeft(1)}
             className="py-3 px-4 md:px-10 button-primary text-center font-rowdies text-white cursor-pointer rounded-lg flex-1"
           >
