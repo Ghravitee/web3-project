@@ -52,7 +52,7 @@ const Tokenomics = () => {
            className="p-3 lg:col-start-1 lg:col-end-3 md:row-start-2 md:row-end-3 lg:row-start-3 lg:row-end-4 md:col-start-2 md:col-end-4 border-[2px] border-[#DBEDFF] rounded-tr-3xl rounded-bl-3xl box-shadow"
           >
             <h3 className="text-4xl lg:text-5xl text-white font-extrabold text-center mb-4">TOTAL SUPPLY</h3>
-            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">1,000,000,000,000</p>
+            <p className="font1 text-[#DBEDFF] text-lg lg:text-3xl text-center">1,000,000,000</p>
           </motion.div>
   
         
